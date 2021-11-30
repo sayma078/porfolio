@@ -18,11 +18,7 @@ const Projects = () => {
               <p>
                 Build a full stack website with firebase authentication,
                 firebase hosting. A buyer can sign in with google, order
-                products, cancel products and also give feedback in review
-                section.A admin can sign in with google, add some products, able
-                to make another user to admin, also admin can change pending
-                status and can confirm order. Used by Bootstrap, React Router,
-                Firebase, Node Js, Express Js, MongoDB .
+                products ....
               </p>
               <Link to="/auraDetails" >
                 {" "}
@@ -38,14 +34,12 @@ const Projects = () => {
               <h5 class="card-title">Trip-in</h5>
               <p>
                 Website is for travel and holiday package booking where user can
-                sign in or sign up with google.There are more feature like Home,
-                About, Services, My Bookings, Manage Bookings .Used by React
-                Bootstrap, React, Firebase, Node Js, Express Js, MongoDB .
+                sign in or sign up with google.There are more feature ....
               </p>
-              <a href="https://trip-in-8388f.web.app/">
+              <Link to="/tripDetails" >
                 {" "}
-                <button className="btn btn-secondary">Live Site</button>
-              </a>
+                <button className="btn btn-secondary">Explore</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -57,14 +51,12 @@ const Projects = () => {
               <p>
                 {" "}
                 This website is about Odontic-care for patent also showing
-                different services.There are some feature like Home, About, Faq,
-                firebase authentication with google sign in and email-password
-                login.Used by React Bootstrap, React, Firebase.
+                different services.There are some feature like Home ....
               </p>
-              <a href="https://health-care-8b237.web.app/">
+              <Link to="/odonticDetails" >
                 {" "}
-                <button className="btn btn-secondary">Live Site</button>
-              </a>
+                <button className="btn btn-secondary">Explore</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
+        <div className="m-5">
             <h2>Blogs are coming</h2>
         </div>
     );
