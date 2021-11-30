@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-    return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  return (
+    <div>
+      <nav class="navbar sticky navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Navbar
@@ -19,24 +20,33 @@ const Header = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
+              <Link class="nav-link active" aria-current="page" to="/home">
                 Home
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <a class="nav-link" href="#about">
                 About
               </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#service">
                 Service
               </a>
-              <a class="nav-link disabled">Disabled</a>
+              
+              <Link class="nav-link" to="/blog">
+                Blog
+              </Link>
+              <a class="nav-link" href="#contact">
+                Contact
+              </a>
             </div>
           </div>
         </div>
       </nav>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Header;

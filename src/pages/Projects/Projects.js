@@ -3,6 +3,7 @@ import aura from "../../images/aura.PNG";
 import tripIn from "../../images/trip-in.PNG";
 import odontic from "../../images/odontice-care.PNG";
 import "./Projects.css";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -23,10 +24,10 @@ const Projects = () => {
                 status and can confirm order. Used by Bootstrap, React Router,
                 Firebase, Node Js, Express Js, MongoDB .
               </p>
-              <a href="https://aura-426aa.web.app/">
+              <Link to="/auraDetails" >
                 {" "}
-                <button className="btn btn-secondary">Live Site</button>
-              </a>
+                <button className="btn btn-secondary">Explore</button>
+              </Link>
             </div>
           </div>
         </div>

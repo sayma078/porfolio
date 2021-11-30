@@ -7,7 +7,7 @@ import "./Service.css";
 
 const Service = () => {
     return (
-        <div className="container ">
+        <div className="container " id="service">
             <h2 className="p-4">My Services</h2>
             <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col cols-sm-12">
