@@ -6,8 +6,8 @@ const Header = () => {
     <div>
       <nav class="navbar sticky navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand fst-italic" href="#">
+            Portfolio
           </a>
           <button
             class="navbar-toggler"

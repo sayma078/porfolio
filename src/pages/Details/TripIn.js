@@ -9,7 +9,7 @@ const TripIn = () => {
     return (
         <div>
              <div className="container " id="service">
-            <h2 className="p-3">Trip-in Details</h2>
+            <h2 className="m-5">Trip-in Details</h2>
            
             <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col cols-sm-12">
@@ -40,8 +40,10 @@ Express Js, MongoDB .</p>
     </div>
   </div>
 </div>
-<button>
-<a href="https://trip-in-8388f.web.app/">Live Link</a></button>
+<a href="https://github.com/sayma078/trip-in-client-site"><button className="btn mt-3 btn-secondary">Client Code</button></a>
+<br />
+<br />
+<a href="https://github.com/sayma078/trip-in-server-site"><button className="btn btn-secondary">Server Code</button></a>
         </div>
         </div>
     );

@@ -7,7 +7,7 @@ const OdonticCare = () => {
     return (
         <div>
              <div className="container " id="service">
-            <h2 className="p-3">Odontic-Care Details</h2>
+            <h2 className="m-5">Odontic-Care Details</h2>
            
             <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col cols-sm-12">
@@ -38,8 +38,7 @@ Express Js, MongoDB .</p>
     </div>
   </div>
 </div>
-<button>
-<a href="https://health-care-8b237.web.app/">Live link</a></button>
+<a href="https://github.com/sayma078/health-care"><button className="btn mt-3 btn-secondary">Code Link</button></a>
 
         </div>
         </div>

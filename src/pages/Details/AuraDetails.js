@@ -8,7 +8,7 @@ const AuraDetails = () => {
     return (
         <div>
              <div className="container " id="service">
-            <h2 className="p-3">Aura Details</h2>
+            <h2 className="m-5">Aura Details</h2>
            
             <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col cols-sm-12">
@@ -41,7 +41,10 @@ Express Js, MongoDB .</p>
     </div>
   </div>
 </div>
-<button><a href="https://aura-426aa.web.app/">Live link</a></button>
+<a href="https://github.com/sayma078/aura-client-site"><button className="btn mt-3 btn-secondary">Client Code</button></a>
+<br />
+<br />
+<a href="https://github.com/sayma078/aura-server-site"><button className="btn btn-secondary">Server Code</button></a>
 
         </div>
         </div>

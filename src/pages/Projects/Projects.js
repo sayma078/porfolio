@@ -20,10 +20,18 @@ const Projects = () => {
                 firebase hosting. A buyer can sign in with google, order
                 products ....
               </p>
+              <div className="d-flex justify-content-around">
               <Link to="/auraDetails" >
                 {" "}
                 <button className="btn btn-secondary">Explore</button>
               </Link>
+              <a href="https://aura-426aa.web.app/"><button className="btn btn-secondary">Live link</button></a>
+
+              </div>
+
+
+
+              
             </div>
           </div>
         </div>
@@ -36,10 +44,13 @@ const Projects = () => {
                 Website is for travel and holiday package booking where user can
                 sign in or sign up with google.There are more feature ....
               </p>
+              <div className="d-flex justify-content-around">
               <Link to="/tripDetails" >
                 {" "}
                 <button className="btn btn-secondary">Explore</button>
               </Link>
+              <a href="https://trip-in-8388f.web.app/"><button className="btn btn-secondary">Live link</button></a>
+              </div>
             </div>
           </div>
         </div>
@@ -53,10 +64,14 @@ const Projects = () => {
                 This website is about Odontic-care for patent also showing
                 different services.There are some feature like Home ....
               </p>
+              <div className="d-flex justify-content-around">
               <Link to="/odonticDetails" >
                 {" "}
                 <button className="btn btn-secondary">Explore</button>
               </Link>
+              <a href="https://health-care-8b237.web.app/"><button className="btn btn-secondary">Live link</button></a>
+              </div>
+              
             </div>
           </div>
         </div>
